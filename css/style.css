@@ -314,3 +314,24 @@ body {
         overflow-wrap: anywhere;
     }
 }
+
+/* Improve mobile portfolio cards */
+@media (max-width: 575.98px) {
+    .portfolio-card {
+        padding: 1rem;
+        border-radius: 0.75rem;
+    }
+
+    .reflection-block {
+        padding: 0.75rem;
+    }
+
+    .item-meta {
+        font-size: 0.85rem;
+    }
+
+    .certificate-photo {
+        max-width: 100%;
+        border-radius: 0.5rem;
+    }
+}
