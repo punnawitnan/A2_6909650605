@@ -254,6 +254,16 @@ body {
     font-size: 0.9rem;
 }
 
+.certificate-photo {
+    display: block;
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    margin: 1rem auto;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+}
+
 /* Responsive adjustments */
 @media (max-width: 575.98px) {
     .hero-section {
