@@ -299,3 +299,18 @@ body {
         margin-bottom: 2.5rem;
     }
 }
+
+/* Improve responsive portfolio layout */
+@media (max-width: 575.98px) {
+    .hero-section h1 {
+        font-size: 2rem;
+    }
+
+    .card-topline {
+        flex-wrap: wrap;
+    }
+
+    .portfolio-card h3 {
+        overflow-wrap: anywhere;
+    }
+}
