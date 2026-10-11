@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Punnawit's Computer Science Learning Portfolio">
+    <title>Punnawit | Learning Portfolio</title>
+
+    <!-- Bootstrap CSS via CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+          crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark site-navbar sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#home">Punnawit<span class="brand-dot">.</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#portfolioNav" aria-controls="portfolioNav"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="portfolioNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#portfolio">My Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#goals">Learning Goals</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#reflection">Reflection</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header id="home" class="hero-section">
+        <div class="container">
+            <div class="row align-items-center g-4">
+                <div class="col-12 col-md-7">
+                    <p class="eyebrow mb-2">COMPUTER SCIENCE STUDENT</p>
+                    <h1 class="display-4 fw-bold">Hello, I'm <span class="accent-text">Punnawit.</span></h1>
+                    <p class="hero-description">Welcome to my learning portfolio. This website presents my coursework, projects, and progress in learning web development and programming.</p>
+                    <a class="btn btn-accent me-2 mb-2" href="#portfolio">Explore My Work</a>
+                    <a class="btn btn-outline-light mb-2" href="#about">About Me</a>
+                </div>
+                <div class="col-12 col-md-5 text-center">
+                    <img class="profile-photo img-fluid" src="media/profile.jpg" alt="Profile photo of Punnawit">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="about" class="section-padding">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow">GET TO KNOW ME</p>
+                    <h2>About Me</h2>
+                    <p>A little introduction about my background and interests.</p>
+                </div>
+                <div class="row g-4 align-items-stretch">
+                    <div class="col-12 col-lg-4">
+                        <article class="info-card h-100">
+                            <h3>Profile</h3>
+                            <ul class="profile-list">
+                                <li><strong>Name:</strong> Punnawit Nantasukon</li>
+                                <li><strong>Student ID:</strong> 6909650605</li>
+                                <li><strong>Program:</strong> Computer Science</li>
+                            </ul>
+                        </article>
+                    </div>
+                    <div class="col-12 col-lg-8">
+                        <article class="info-card h-100">
+                            <h3>My Interests</h3>
+                            <p>I enjoy playing games and exercising in my free time. I am interested in programming, web development, artificial intelligence, and game development.</p>
+                            <p class="mb-0">I want to keep improving my problem-solving skills and learn how to turn ideas into useful digital projects.</p>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio" class="section-padding section-muted">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow">SELECTED WORK</p>
+                    <h2>My Portfolio</h2>
+                    <p>Coursework and projects that show what I have practiced and learned.</p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-12 col-lg-6">
+                        <article class="portfolio-card h-100">
+                            <div class="card-topline"><span class="tag">Course Assignment</span><span class="item-number">01</span></div>
+                            <h3>CS100 A1: My First Learning Portfolio</h3>
+                            <p class="item-meta">Date: 30 August 2026 · Role: Individual Developer</p>
+                            <p><strong>Description:</strong> Created a single-page learning portfolio using HTML and CSS to introduce myself, describe my learning process, and set learning goals.</p>
+                            <p><strong>Skills:</strong> HTML, CSS, Semantic HTML, Web Browser Testing</p>
+                            <div class="reflection-block">
+                                <h4>Reflection</h4>
+                                <p><strong>What I did:</strong> Built the page structure and added profile information, learning goals, and a reflection section.</p>
+                                <p><strong>What I learned:</strong> Learned how HTML structures content and CSS controls the appearance of a page.</p>
+                                <p><strong>Challenge:</strong> Understanding the HTML structure and image path was challenging, so I checked the code and tested the page in a browser.</p>
+                                <p><strong>Next step:</strong> Improve the layout with Bootstrap and make the website work well on mobile screens.</p>
+                            </div>
+                            <div class="evidence-links">
+                                <span class="evidence-label">Evidence:</span>
+                                <span>Current A1 source code (used as the basis for this A2 portfolio).</span>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="col-12 col-lg-6">
+                        <article class="portfolio-card h-100">
+                            <div class="card-topline"><span class="tag">Certificate</span><span class="item-number">02</span></div>
+                            <h3>Basic Python Programming</h3>
+                            <p class="item-meta">Date: 25 March 2024 · Role: Participant</p>
+                            <p><strong>Description:</strong> Participated in the Basic Python Programming training organized by CHANGE Education.</p>
+                            <p><strong>Skills:</strong> Python Programming (introductory learning)</p>
+                            <div class="reflection-block">
+                                <h4>Reflection</h4>
+                                <p><strong>What I did:</strong> Participated in a Basic Python Programming training session.</p>
+                                <p><strong>What I learned:</strong> The training provided an opportunity to learn about Python programming at a basic level.</p>
+                                <p><strong>Challenge:</strong> Learning programming concepts can take practice, so reviewing the material and trying small coding exercises can help improve understanding.</p>
+                                <p><strong>Next step:</strong> Continue practicing Python by writing small programs and solving beginner programming problems.</p>
+                            </div>
+                            <div class="evidence-links">
+                                <span class="evidence-label">Evidence:</span>
+                                <a href="media/basic-python-certificate.pdf" target="_blank" rel="noopener">View Certificate</a>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="goals" class="section-padding">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow">KEEP GROWING</p>
+                    <h2>My Learning Goals</h2>
+                    <p>Skills I want to develop as I continue studying Computer Science.</p>
+                </div>
+                <div class="row g-3">
+                    <div class="col-12 col-sm-6 col-lg-3"><article class="goal-card h-100"><span class="goal-index">01</span><h3>HTML</h3><p>Build clear and accessible page structures.</p></article></div>
+                    <div class="col-12 col-sm-6 col-lg-3"><article class="goal-card h-100"><span class="goal-index">02</span><h3>CSS & Bootstrap</h3><p>Create consistent layouts that adapt to different screens.</p></article></div>
+                    <div class="col-12 col-sm-6 col-lg-3"><article class="goal-card h-100"><span class="goal-index">03</span><h3>Git & GitHub</h3><p>Practice tracking changes and managing projects.</p></article></div>
+                    <div class="col-12 col-sm-6 col-lg-3"><article class="goal-card h-100"><span class="goal-index">04</span><h3>Programming</h3><p>Strengthen problem-solving and build useful projects.</p></article></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="reflection" class="section-padding section-muted">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow">LOOKING BACK</p>
+                    <h2>Overall Reflection</h2>
+                </div>
+                <div class="reflection-summary">
+                    <p>Through my learning activities, I have practiced organizing web content with HTML and styling it with CSS. I learned that testing in a browser helps me identify problems and improve my work.</p>
+                    <p class="mb-0">My next goal is to practice responsive design, use GitHub more confidently, and keep building projects. I will test my changes on both desktop and mobile screens and improve the portfolio as I learn more.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container d-flex flex-column flex-sm-row justify-content-between gap-2">
+            <span>Punnawit Nantasukon · 6909650605</span>
+            <span>Learning Portfolio · CS100</span>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JavaScript is used only for the mobile navigation menu -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"></script>
+</body>
+</html>
