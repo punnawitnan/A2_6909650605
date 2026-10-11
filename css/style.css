@@ -300,7 +300,7 @@ body {
     }
 }
 
-/* Responsive portfolio improvements for mobile screens */
+/* Improve responsive portfolio layout */
 @media (max-width: 575.98px) {
     .hero-section h1 {
         font-size: 2rem;
